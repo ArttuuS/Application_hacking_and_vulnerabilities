@@ -1,6 +1,6 @@
 # H1 korkeat standardit
 
-#a) 
+## a) 
 
 3.2): Termi ”attack" (suom. hyökkäys) tarkoittaa toimintaa, jolla kohde pyritään tuhoamaan, paljastamaan, muokkaamaan, poistaa käytöstä tai varastamaan. Toiminnan tavoitteena voi olla myös saada luvaton pääsy tai käyttää luvattomasti kohdetta. Tämä kohde, kun puhutaan tietoturvasta, voi olla esimerkiksi tietoja, järjestelmiä tai laitteita. (viite)
 
