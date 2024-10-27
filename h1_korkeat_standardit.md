@@ -12,3 +12,4 @@
 
 3.77 :Termi ”vulnerability" (suom. haavoittuvuus tarkoittaa kohteen heikkoutta, joka on yhden tai useamman uhan hyödynnettävissä. (viite)
 
+## b)
