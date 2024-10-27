@@ -30,4 +30,6 @@ ISO 27034 standardikokonaisuus tarjoaa ohjeita, joka auttavat organisaatioita in
 
 6: Uskon, että väittämä pitää paikkansa. Ohjelmisto on niin laaja kokonaisuus, minkä kokonaisvaltainen suojaaminen voi tuntua ylenpalttiselta tehtävältä, joten omat tuotokset voivat tuntua huonommin suojatuilta kuin muiden ohjelmistot, sillä niiden suojauksesta ei ole mitään tietoa. Myös esimerkiksi oma henkilökohtainen tietämykseni ohjelmistojen suojaamisesta on varsin pientä, joten on uskoa, että oma ohjelmisto on riskialttiimpi kuin muiden ohjelmisto.
 
-## Linux on asennettu.
+## d)
+
+Linux on asennettu.
