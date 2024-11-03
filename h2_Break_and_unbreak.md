@@ -51,8 +51,7 @@ Ympäristö: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu 
 
 Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "SQL injektiot" voivat teoriassa olla läsnä jokaikisellä sivustolla tai sovelluksella jos sitä vastaan ei olla suojauduttu. Tässä tehtävässä SQL injectionin pystyi toteuttamaan URL-kentän kautta. Myös esimerkiksi erilaiset input-kentät voivat toimia keinona toteuttaa "injektio". Tämä tehtävän ratkaisin jo oppitunnilla, julkaisemattomat tuotteet saa näkyviin laittamalla URL-osoitteen perään: filter?category=Gifts'+OR+1=1--. Tämä palauttaa tuotteet jossa kategoria on joko "Gifts" tai 1=1, mikä on taas aina totta, joten kaikki tuotteet tulevat näkyviin.
 
-Application_hacking_and_vulnerabilities
-/sql_injection1.jpg
+![sql_injection1](https://github.com/user-attachments/assets/458aa83b-d8be-46fc-8c0d-46be75e1f1d4)
 
 
 ## h) 
@@ -60,8 +59,8 @@ Ympäristö: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu 
 
 Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
 
-Application_hacking_and_vulnerabilities
-/sql_injection2.jpg
+![sql_injection2](https://github.com/user-attachments/assets/9173ceff-b890-499b-bb2f-89913192fbc3)
+
 
 ## Lähdeviitteet
 
