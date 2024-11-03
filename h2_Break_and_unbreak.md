@@ -34,7 +34,7 @@
 
 
 
-
+Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm.
 
 ## a)
 
@@ -47,15 +47,13 @@
 ## e)
 
 ## g) 
-Ympäristö: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm.
+Ympäristö: 
 
 Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "SQL injektiot" voivat teoriassa olla läsnä jokaikisellä sivustolla tai sovelluksella jos sitä vastaan ei olla suojauduttu. Tässä tehtävässä SQL injectionin pystyi toteuttamaan URL-kentän kautta. Myös esimerkiksi erilaiset input-kentät voivat toimia keinona toteuttaa "injektio". Tämä tehtävän ratkaisin jo oppitunnilla, julkaisemattomat tuotteet saa näkyviin laittamalla URL-osoitteen perään: filter?category=Gifts'+OR+1=1--. Tämä palauttaa tuotteet jossa kategoria on joko "Gifts" tai 1=1, mikä on taas aina totta, joten kaikki tuotteet tulevat näkyviin.
 
 ![sql_injection1](https://github.com/user-attachments/assets/458aa83b-d8be-46fc-8c0d-46be75e1f1d4)
 
-
 ## h) 
-Ympäristö: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm.
 
 Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
 
@@ -72,7 +70,7 @@ PortSwigger 2024. Access control vulnerabilities and privilege escalation. Luett
 
 Tero Karvinen 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/. Luettu: 3.11.2024.
 
-
+PortSwigger 2024. SQL injection. Luettavissa: https://portswigger.net/web-security/sql-injection. Luettu 3.11.2024.
 
 
 
