@@ -34,7 +34,7 @@
 
 
 
-Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm. Testisovellukset pyörii lokaalisti, selain Mozilla Firefox ja kone irti verkosta.
+##Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm. Testisovellukset pyörii lokaalisti, selain Mozilla Firefox ja kone irti verkosta.
 
 ## a) 
 Aloitin tehtävän ratkaisun kokeilemalla oppitunnilla tehtyjen johdantotehtävien ratkaisua. Ensimmäinen johdantotehtävistä ratkaistiin laittamalla urlin perään '+OR+1=1--, mutta tämä aiheutti vain "Not Found" erroria. Input-kenttä otti vastaan vain numeroita, mutta tämä on erittäin helppo kiertää tässä tapauksessa käyttämällä selaimen developer toolseja, jota kautta input-kenttä voidaan valita ja sen tyyppi vaihtaa "number" --> "", eli tyhjäksi. Tällöin input-kenttään pystyy vastaanottamaan myös kirjaimia. Käytin johdantotehtävien tekemisen tukena PortSwiggerin SQL Injection opasta ja niin tein myös tämän tehtävän kanssa.
