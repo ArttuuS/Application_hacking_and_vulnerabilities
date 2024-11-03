@@ -34,9 +34,23 @@
 
 
 
-Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm.
+Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm. Testisovellukset pyörii lokaalisti, selain Mozilla Firefox ja kone irti verkosta.
 
-## a)
+## a) 
+Aloitin tehtävän ratkaisun kokeilemalla oppitunnilla tehtyjen johdantotehtävien ratkaisua. Ensimmäinen johdantotehtävistä ratkaistiin laittamalla urlin perään '+OR+1=1--, mutta tämä aiheutti vain "Not Found" erroria. Input-kenttä otti vastaan vain numeroita, mutta tämä on erittäin helppo kiertää tässä tapauksessa käyttämällä selaimen developer toolseja, jota kautta input-kenttä voidaan valita ja sen tyyppi vaihtaa "number" --> "", eli tyhjäksi. Tällöin input-kenttään pystyy vastaanottamaan myös kirjaimia. Käytin johdantotehtävien tekemisen tukena PortSwiggerin SQL Injection opasta ja niin tein myös tämän tehtävän kanssa.
+
+Testisovelluksen alalaidassa oli itselleni erittäin hyödyllinen vinkki: SELECT password FROM pins WHERE pin='123'; Tämä auttoi ymmärtämään logiikkaa, millä tavoin salasanat haetaan.
+
+PortSwiggerin "Retrieving data from other database tables" oli tässä kohtaa hyödyllinen, sillä sielä avattiin UNION keywordia ja kuinka sen avulla SELECT lauseita voidaan suorittaa. 
+
+![Näyttökuva 2024-11-04 002630](https://github.com/user-attachments/assets/64bbb9d6-add3-4c3e-ac2f-dc259f70f0d6)
+(PortSwigger 2024)
+
+Näistä lauseista pystyi  rakentamaan logiikan omaan lauseeseen, jonka avulla adminin salasana paljastuu:
+
+' UNION SELECT PASSWORD FROM PINS--
+
+Admin salasana: SUPERADMIN%%rootALL-FLAG{Tero-e45f8764675e4463db969473b6d0fcdd}
 
 ## b)
 
@@ -47,21 +61,17 @@ Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle Virt
 ## e)
 
 ## g) 
-Ympäristö: 
-
 Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "SQL injektiot" voivat teoriassa olla läsnä jokaikisellä sivustolla tai sovelluksella jos sitä vastaan ei olla suojauduttu. Tässä tehtävässä SQL injectionin pystyi toteuttamaan URL-kentän kautta. Myös esimerkiksi erilaiset input-kentät voivat toimia keinona toteuttaa "injektio". Tämä tehtävän ratkaisin jo oppitunnilla, julkaisemattomat tuotteet saa näkyviin laittamalla URL-osoitteen perään: filter?category=Gifts'+OR+1=1--. Tämä palauttaa tuotteet jossa kategoria on joko "Gifts" tai 1=1, mikä on taas aina totta, joten kaikki tuotteet tulevat näkyviin.
 
 ![sql_injection1](https://github.com/user-attachments/assets/458aa83b-d8be-46fc-8c0d-46be75e1f1d4)
 
 ## h) 
-
 Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
 
 ![sql_injection2](https://github.com/user-attachments/assets/9173ceff-b890-499b-bb2f-89913192fbc3)
 
 
 ## Lähdeviitteet
-
 OWASP 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/. Luettu: 3.11.2024.
 
 Tero Karvinen 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/. Luettu: 3.11.2024.
