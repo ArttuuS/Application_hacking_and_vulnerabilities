@@ -54,6 +54,17 @@ Näistä lauseista pystyi  rakentamaan logiikan omaan lauseeseen, jonka avulla a
 Admin salasana: SUPERADMIN%%rootALL-FLAG{Tero-e45f8764675e4463db969473b6d0fcdd}
 
 ## b)
+Aloitin haavoittavuuden korjaamisen paikantamalla SQL-lauseen, mikä koskee salasanoja. Haavoittavuus löytyi nopeasti, eikä sen paikantaminen tuottanut ongelmia.
+
+Tässä koodinpätkässä on SQL-injektio-haavoittuvuus, koska käyttäjän syöttämä arvo liitetään suoraan SQL-lauseeseen
+
+![koodi_vika](https://github.com/user-attachments/assets/eda50047-a940-46b2-9b1e-5881c65ced78)
+
+![sql_injection3](https://github.com/user-attachments/assets/75d94e95-dd93-45c7-bead-2065aa70fc7d)
+
+PortSwiggerin How to preven SQL injection-osiossa oli juuri samantapainen haavoitttuvuus, mikä helpotti sekä paikantamista, että korjausta. Haavoittuvuuden voi ratkaista käyttämällä parametroituja SQL-kyselyitä. Korjauksessani :pin toimii paikkamerkkinä ja {"pin": pin} määrittelee sen arvon, ilman että sitä liitetään suoraan SQL-lauseeseen. Korjauksen jälkeen käyttämäni UNION SELECT-lause ei enään toimi.
+
+![koodi_korjattu](https://github.com/user-attachments/assets/2920f52b-a98c-46d8-bd2a-06e04023676d)
 
 ## c)
 
@@ -83,5 +94,6 @@ Tero Karvinen 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.c
 
 PortSwigger 2024. SQL injection. Luettavissa: https://portswigger.net/web-security/sql-injection. Luettu 3.11.2024.
 
+https://portswigger.net/web-security/sql-injection#how-to-prevent-sql-injection
 
 
