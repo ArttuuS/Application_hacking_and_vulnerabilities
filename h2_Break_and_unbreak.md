@@ -44,6 +44,7 @@ Testisovelluksen alalaidassa oli itselleni erittäin hyödyllinen vinkki: SELECT
 PortSwiggerin "Retrieving data from other database tables" oli tässä kohtaa hyödyllinen, sillä sielä avattiin UNION keywordia ja kuinka sen avulla SELECT lauseita voidaan suorittaa. 
 
 ![Näyttökuva 2024-11-04 002630](https://github.com/user-attachments/assets/64bbb9d6-add3-4c3e-ac2f-dc259f70f0d6)
+
 (PortSwigger 2024)
 
 Näistä lauseista pystyi  rakentamaan logiikan omaan lauseeseen, jonka avulla adminin salasana paljastuu:
