@@ -85,7 +85,7 @@ Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietop
 ![sql_injection2](https://github.com/user-attachments/assets/9173ceff-b890-499b-bb2f-89913192fbc3)
 
 
-## Lähdeviitteet
+## Lähteet
 OWASP 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/. Luettu: 3.11.2024.
 
 Tero Karvinen 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/. Luettu: 3.11.2024.
@@ -94,8 +94,8 @@ PortSwigger 2024. Access control vulnerabilities and privilege escalation. Luett
 
 Tero Karvinen 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/. Luettu: 3.11.2024.
 
-PortSwigger 2024. SQL injection. Luettavissa: https://portswigger.net/web-security/sql-injection. Luettu 3.11.2024.
+PortSwigger 2024. SQL injection: What is SQL injection (SQLi)?. Luettavissa: https://portswigger.net/web-security/sql-injection#what-is-sql-injection-sqli. Luettu 3.11.2024.
 
-https://portswigger.net/web-security/sql-injection#how-to-prevent-sql-injection
+PortSwigger 2024. SQL injection: how-to-prevent-sql-injection. Luettavissa: https://portswigger.net/web-security/sql-injection#how-to-prevent-sql-injection. Luettu 4.11.2024.
 
 
