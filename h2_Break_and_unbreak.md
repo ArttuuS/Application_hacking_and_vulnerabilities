@@ -25,7 +25,7 @@
 
 -Raportin tulee olla toistettava, täsmällinen ja helppolukuinen (Tero Karvinen 2006).
 
--On tärkeää viitata lähteiseen. Sillä osoitettaan perehtyneisyys. Tekstin kopioiminen ja käyttämäminen ilman lähdemerkintää tulkitaan sepittämiseksi tai plagioinniksi ja ne ovat rangaistavia vilppejä. (Tero Karvinen 2006.)
+-On tärkeää viitata lähteiseen. Sillä osoitettaan perehtyneisyys. Tekstin kopioiminen ja käyttäminen ilman lähdemerkintää tulkitaan sepittämiseksi tai plagioinniksi ja ne ovat rangaistavia vilppejä. (Tero Karvinen 2006.)
 
 ### Vapaaehtoinen PortSwigger 2020: What is SQL injection? - Web Security Academy:
 
