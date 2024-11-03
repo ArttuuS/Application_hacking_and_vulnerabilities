@@ -68,6 +68,9 @@ PortSwiggerin How to preven SQL injection-osiossa oli juuri samantapainen haavoi
 
 ![koodi_korjattu](https://github.com/user-attachments/assets/2920f52b-a98c-46d8-bd2a-06e04023676d)
 
+![kuva](https://github.com/user-attachments/assets/c6632e01-7d3e-4e43-b1ca-8c16cda4d0d8)
+
+
 ## c)
 
 ## d)
@@ -83,6 +86,8 @@ Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "
 Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
 
 ![sql_injection2](https://github.com/user-attachments/assets/9173ceff-b890-499b-bb2f-89913192fbc3)
+
+
 
 
 ## Lähteet
