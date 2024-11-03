@@ -62,6 +62,8 @@ Tässä koodinpätkässä on SQL-injektio-haavoittuvuus, koska käyttäjän syö
 
 ![sql_injection3](https://github.com/user-attachments/assets/75d94e95-dd93-45c7-bead-2065aa70fc7d)
 
+(PortSwigger 2024)
+
 PortSwiggerin How to preven SQL injection-osiossa oli juuri samantapainen haavoitttuvuus, mikä helpotti sekä paikantamista, että korjausta. Haavoittuvuuden voi ratkaista käyttämällä parametroituja SQL-kyselyitä. Korjauksessani :pin toimii paikkamerkkinä ja {"pin": pin} määrittelee sen arvon, ilman että sitä liitetään suoraan SQL-lauseeseen. Korjauksen jälkeen käyttämäni UNION SELECT-lause ei enään toimi.
 
 ![koodi_korjattu](https://github.com/user-attachments/assets/2920f52b-a98c-46d8-bd2a-06e04023676d)
