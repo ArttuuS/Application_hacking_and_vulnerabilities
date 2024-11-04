@@ -103,6 +103,13 @@ Tehtävä ratkesi lopulta helposti. Tehtävä C antoi hyvät pohjat tehtävän D
 
 
 ## e)
+Haavoittuvuuden paikantaminen lähdekoodista vei itselleni hieman aikaa. Lopulta lähdekoodia pengottuani löysin hats/views.py tiedosta koodia joka liittyy Admin consoleen. Kyseisestä tiedostosta löytyy puuttellista käyttöoikeuksien tarkistusta. AdminShowAllView-luokan test_func-metodi tarkistaa vain, että käyttäjä on kirjautunut sisään, mutta ei sitä, että onko käyttäjällä tarvittavia oikeuksia. Ylemmässä test-func-metodissa tarkistus on toteutettu self.request.user.is_staff tavalla ja lisäsinkin kyseisen koodinpätkän myös alempaan metodiin ja tämä kyseinen haavoittuvuus on tällä korjattu. 
+![koodi_vika2](https://github.com/user-attachments/assets/6f40cab7-8407-4ddf-a517-503c385ec553)
+
+![koodi_korjattu2](https://github.com/user-attachments/assets/adae7d6d-d81e-4a73-adcc-116c5802a83f)
+
+![kuva (7)](https://github.com/user-attachments/assets/03adff44-bfff-4123-9a97-5df8e0af7ae9)
+
 
 ## g) 
 Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "SQL injektiot" voivat teoriassa olla läsnä jokaikisellä sivustolla tai sovelluksella jos sitä vastaan ei olla suojauduttu. Tässä tehtävässä SQL injectionin pystyi toteuttamaan URL-kentän kautta. Myös esimerkiksi erilaiset input-kentät voivat toimia keinona toteuttaa "injektio". Tämä tehtävän ratkaisin jo oppitunnilla, julkaisemattomat tuotteet saa näkyviin laittamalla URL-osoitteen perään: filter?category=Gifts'+OR+1=1--. Tämä palauttaa tuotteet jossa kategoria on joko "Gifts" tai 1=1, mikä on taas aina totta, joten kaikki tuotteet tulevat näkyviin.
