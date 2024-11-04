@@ -89,6 +89,18 @@ Tällä komennolla löytyi sekä admin että versionhallintaan liittyvät sivut:
 
 
 ## d)
+Tehtävän aluksi laitoin testisovelluksen päälle ohjeiden mukaisesti. Internetistä olin muiden tehtävien tapaan irtaantunut. C-tehtävän tehtävänannossa mainittiin, että kyseinen tehtävä auttaa 020-your-eyes-only-tehtävän ratkaisemisessa, joten lähdin liikkeelle käyttäen ffuff-työkalua. Suoritin aluksi komennon ($ ./ffuf -w common.txt -u h<span>t</span>tp://127.0.0.1:8000/FUZZ) ilman filtteröintiä ja se tuotti heti tulosta:
+
+![kuva (5)](https://github.com/user-attachments/assets/20c5618b-f70c-4e35-89d0-d199070449f7)
+
+Tämä kyseinen sanapari pomppasi silmille, josta olin kieltämättä yllättynyt. Ajattelin, että tämän löytäminen vaatisi filtteröintiä.
+
+Nooh.. suoraan tottakai testaamaan admin-consolen lisäämistä Urlin perään, mutta ei tulosta. Hieman enemmän sovellukseen tutustuttiani päätin tehdä tunnukset sovellukseen. Sisään kirjautuneena uudelleen admin-consolen lisääminen urlin perään ja bingo!
+
+![kuva (6)](https://github.com/user-attachments/assets/a0176695-fdc4-438f-8cbd-0be22e5db32e)
+
+Tehtävä ratkesi lopulta helposti. Tehtävä C antoi hyvät pohjat tehtävän D ratkaisemiseksi.
+
 
 ## e)
 
