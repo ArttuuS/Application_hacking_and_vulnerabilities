@@ -11,7 +11,7 @@
 
 -Turvatoimia, joilla hyökkäyksiä voidaan estää on mm. oletusarvoinen käyttöoikeuksien esto (ei julkisille resursseille), pääsynhallinta mekanismien käyttö yhtenäisesti koko sovellukselle ja pääsynhallinnan epäonnistumisten kirjaaminen ylös. Näitä turvatoimia tulee testata. (OWASP 2021.)
 
--"Vertical access controls": käyttöoikeusien hallintaa, jolla rajoitetaan herkkiin toimintoihin pääsyä eri käyttäjäryhmille (esim. admin voi muokata ja poistaa minkä tahansa tilin, mutta tavallinen käyttäjä ei). "Horizontal access controls": käyttöoikeuksien hallinan mekanismeja jotka rajoittavat oikeuksia tietyille käyttäjille (esim. käyttäjä x voi tarkastella oman pankkitilinsä tapahtumia mutta ei käyttäjän y tapahtumia). "Context-dependent access controls": käyttöoikeuksien hallintaa, jonka avulla rajoitetaan toimintoihin pääsyä sovelluksen tilan tai käyttäjän toimenpiteiden perusteella (esim. käyttäjä ei voi muokata ostoskorin sisältöä, maksamisen jälkeen). (PortSwigger 2024.)
+-"Vertical access controls": käyttöoikeusien hallintaa, jolla rajoitetaan herkkiin toimintoihin pääsyä eri käyttäjäryhmille (esim. admin voi muokata ja poistaa minkä tahansa tilin, mutta tavallinen käyttäjä ei). "Horizontal access controls": käyttöoikeuksien hallinan mekanismeja, jotka rajoittavat oikeuksia tietyille käyttäjille (esim. käyttäjä x voi tarkastella oman pankkitilinsä tapahtumia mutta ei käyttäjän y tapahtumia). "Context-dependent access controls": käyttöoikeuksien hallintaa, jonka avulla rajoitetaan toimintoihin pääsyä sovelluksen tilan tai käyttäjän toimenpiteiden perusteella (esim. käyttäjä ei voi muokata ostoskorin sisältöä, maksamisen jälkeen). (PortSwigger 2024.)
 
 ### Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf:
 
@@ -26,13 +26,6 @@
 -Raportin tulee olla toistettava, täsmällinen ja helppolukuinen (Tero Karvinen 2006).
 
 -On tärkeää viitata lähteiseen. Sillä osoitettaan perehtyneisyys. Tekstin kopioiminen ja käyttäminen ilman lähdemerkintää tulkitaan sepittämiseksi tai plagioinniksi ja ne ovat rangaistavia vilppejä. (Tero Karvinen 2006.)
-
-### Vapaaehtoinen PortSwigger 2020: What is SQL injection? - Web Security Academy:
-
-
-
-
-
 
 ## Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm. Testisovellukset pyörii lokaalisti, selain Mozilla Firefox ja kone irti verkosta.
 
@@ -103,7 +96,8 @@ Tehtävä ratkesi lopulta helposti. Tehtävä C antoi hyvät pohjat tehtävän D
 
 
 ## e)
-Haavoittuvuuden paikantaminen lähdekoodista vei itselleni hieman aikaa. Lopulta lähdekoodia pengottuani löysin hats/views.py tiedosta koodia joka liittyy Admin consoleen. Kyseisestä tiedostosta löytyy puuttellista käyttöoikeuksien tarkistusta. AdminShowAllView-luokan test_func-metodi tarkistaa vain, että käyttäjä on kirjautunut sisään, mutta ei sitä, että onko käyttäjällä tarvittavia oikeuksia. Ylemmässä test-func-metodissa tarkistus on toteutettu self.request.user.is_staff tavalla ja lisäsinkin kyseisen koodinpätkän myös alempaan metodiin ja tämä kyseinen haavoittuvuus on tällä korjattu. 
+Haavoittuvuuden paikantaminen lähdekoodista vei itselleni hieman aikaa. Lopulta lähdekoodia pengottuani löysin hats/views.py tiedosta koodia joka liittyy Admin consoleen. Kyseisestä tiedostosta löytyy puuttellista käyttöoikeuksien tarkistusta. AdminShowAllView-luokan test_func-metodi tarkistaa vain, että käyttäjä on kirjautunut sisään, mutta ei sitä, että onko käyttäjällä tarvittavia oikeuksia. Ylemmässä test-func-metodissa tarkistus on toteutettu self.request.user.is_staff tavalla ja lisäsinkin kyseisen koodinpätkän myös alempaan metodiin ja tämä kyseinen haavoittuvuus on tällä korjattu.
+
 ![koodi_vika2](https://github.com/user-attachments/assets/6f40cab7-8407-4ddf-a517-503c385ec553)
 
 ![koodi_korjattu2](https://github.com/user-attachments/assets/adae7d6d-d81e-4a73-adcc-116c5802a83f)
@@ -117,12 +111,9 @@ Tehtävän ratkaisuun sai osviittaa Portswiggerin SQL Injection tietopankista. "
 ![sql_injection1](https://github.com/user-attachments/assets/458aa83b-d8be-46fc-8c0d-46be75e1f1d4)
 
 ## h) 
-Tämänkin tehtävän ratkaisuun sai osviitta PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
+Tämänkin tehtävän ratkaisuun sai osviittaa PortSwiggerin SQL Injection tietopankista. Tällä kertaa SQL-Injektio toteutetaan input-kenttien kautta. Usernameksi laitetaan administrator'-- ja salasanaksi "". SQL-kommentti -- poistaa salasanan tarkastuksen kokonaan, jonka avulla kirjautuminen administraattorina onnistuu.
 
 ![sql_injection2](https://github.com/user-attachments/assets/9173ceff-b890-499b-bb2f-89913192fbc3)
-
-
-
 
 ## Lähteet
 OWASP 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/. Luettu: 3.11.2024.
