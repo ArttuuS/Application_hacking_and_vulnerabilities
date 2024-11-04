@@ -76,7 +76,7 @@ Tämän tehtävän suorituksessa auttoi merkittävästi ohjattu harjoitus joka t
 
 Latasin ja asensin aluksi dirfuzt-1 sovelluksen ohjeiden mukaisesti ja laitoin sen pyörimään. Irroitin läppärini verkosta.
 
-Käytin aluksi komentoa $ ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ
+Käytin aluksi komentoa: $ ./ffuf -w common.txt -u h<span>t</span>tp://127.0.0.2:8000/FUZZ
 
 Sitten lähdin filtteröimään edellisen tehtävän mukaan ja käytin komentoa jolla filtteröin 154 tavun kokoiset vastaukset pois. Käytin tähän komentoa: ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
 
