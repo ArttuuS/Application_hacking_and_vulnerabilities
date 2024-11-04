@@ -72,6 +72,21 @@ PortSwiggerin How to preven SQL injection-osiossa oli juuri samantapainen haavoi
 
 
 ## c)
+Tämän tehtävän suorituksessa auttoi merkittävästi ohjattu harjoitus joka tehtiin dirfuzt-0 kohteella. Noudatin ohjeistusta kohta kohdalta ja sain asennettua tarvittavat työkalut. 
+
+Latasin ja asensin aluksi dirfuzt-1 sovelluksen ohjeiden mukaisesti ja laitoin sen pyörimään. Irroitin läppärini verkosta.
+
+Käytin aluksi komentoa $ ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ
+
+Sitten lähdin filtteröimään edellisen tehtävän mukaan ja käytin komentoa jolla filtteröin 154 tavun kokoiset vastaukset pois. Käytin tähän komentoa: ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
+
+Tällä komennolla löytyi sekä admin että versionhallintaan liittyvät sivut:
+
+![kuva (2)](https://github.com/user-attachments/assets/64a76613-3ed2-42c5-aef0-c8e86bd3755b)
+![kuva (3)](https://github.com/user-attachments/assets/f0590290-9203-4250-b2dc-c9c45f994411)
+![kuva (1)](https://github.com/user-attachments/assets/714cc311-fb8f-4806-9126-d969cd2924f5)
+![kuva (4)](https://github.com/user-attachments/assets/7d8408f6-aeb4-4978-84ae-0f5c387b0f0a)
+
 
 ## d)
 
