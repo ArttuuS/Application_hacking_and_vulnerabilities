@@ -78,7 +78,7 @@ Latasin ja asensin aluksi dirfuzt-1 sovelluksen ohjeiden mukaisesti ja laitoin s
 
 Käytin aluksi komentoa: $ ./ffuf -w common.txt -u h<span>t</span>tp://127.0.0.2:8000/FUZZ
 
-Sitten lähdin filtteröimään edellisen tehtävän mukaan ja käytin komentoa jolla filtteröin 154 tavun kokoiset vastaukset pois. Käytin tähän komentoa: ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
+Sitten lähdin filtteröimään edellisen tehtävän mukaan ja käytin komentoa jolla filtteröin 154 tavun kokoiset vastaukset pois. Käytin tähän komentoa: ./ffuf -w common.txt -u h<span>t</span>tp://127.0.0.2:8000/FUZZ -fs 154
 
 Tällä komennolla löytyi sekä admin että versionhallintaan liittyvät sivut:
 
