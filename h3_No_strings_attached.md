@@ -4,11 +4,11 @@ Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle Virt
 
 ## a)
 
-Tätä tehtävää lähdin tekemään täysin tehtävänannon mukaan. "Strings"-ohjelmasta luin hyvän artikkelin How-To-Geekin-sivuilta, jonka avulla sain hieman käsitystä sen toiminnasta. Artikkeli löytyy lähdeviitteistä ensimmäisenä. 
-
-![strings](https://github.com/user-attachments/assets/deb2178d-17c6-4a58-a02f-6b106a194b62)
+Tätä tehtävää lähdin tekemään täysin tehtävänannon mukaan. "Strings"-ohjelmasta luin hyvän artikkelin How-To-Geekin-sivuilta, jonka avulla sain hieman käsitystä sen toiminnasta. Artikkeli löytyy lähdeviitteistä ensimmäisenä.
 
 Ohjelman oikea salasana sekä myös flägi löytyy helposti käyttäen strings passtr komentoa. 
+
+![strings](https://github.com/user-attachments/assets/deb2178d-17c6-4a58-a02f-6b106a194b62)
 
 ![strings2](https://github.com/user-attachments/assets/dde89cf2-58eb-4a6a-9bfb-2d8a38cd9029)
 
