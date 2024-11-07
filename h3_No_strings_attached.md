@@ -1,6 +1,6 @@
 # h2 No strings attached
 
-Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm. Testisovellukset pyörii lokaalisti, selain Mozilla Firefox
+Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm.
 
 ## a)
 
@@ -24,4 +24,4 @@ Mckay, D. 9.7.2019. How to Use the strings Command on Linux. Luettavissa: https:
 
 Clang 2024. Getting Started: Building and Running Clang. Luettavissa: https://clang.llvm.org/get_started.html. Luettu 7.11.2024.
 
-Digital.ai 2024. https://digital.ai/catalyst-blog/how-to-obfuscate-c-code/. Luettavissa: https://digital.ai/catalyst-blog/how-to-obfuscate-c-code/. Luettu 7.11.2024.
+Digital.ai 2024. How to Obfuscate C Code. Luettavissa: https://digital.ai/catalyst-blog/how-to-obfuscate-c-code/. Luettu 7.11.2024.
