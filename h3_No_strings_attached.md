@@ -26,7 +26,8 @@ Aluksi loin yksinkertaisen sovelluksen, joka salaa "sala-hakkeri-321" merkkijono
 
 Käännetään, ja käynnistetään sovellus. Sovellus antaa "encryptatun" salasanan, joka kopioidaan.
 
-![kuva (10)](https://github.com/user-attachments/assets/4ef16540-561e-47bd-bdc2-bff38e6478d1)
+![kuva (9)](https://github.com/user-attachments/assets/2da30ead-4e89-4e4e-bec5-871245f92907)
+
 
 Sitten muokkaamaan itse pääohjelmaa. Muokatussa pääohjelmassa on sama encrypt funktio kuin salasanan encryptointi ohjelmassa. Käyttämällä samaa funktiota uudelleen, saadaan encryptattu salasana palautettua alkuperäiseen muotoon. 
 
@@ -34,9 +35,11 @@ Encryptattava salasana on kopioitu aiemman ohjelman syötteestä. Tämä on siis
 
 Muokkaamattomassa versioissa verrattiin käyttäjän syötettä suoraan "sala-hakkeri-321"-merkkijonoon, mutta nyt salasana puretaan ensin encrypt()-funktiolla ja sen jälkeen tehdään vertailu. Merkkijonoa "sala-hakkeri-321" ei siis löydy suoraan lähdekoodista laisinkaan.  
 
-![kuva (11)](https://github.com/user-attachments/assets/722da70b-6a17-4efc-a76d-055f9a7b6845)
+![kuva (10)](https://github.com/user-attachments/assets/4ef16540-561e-47bd-bdc2-bff38e6478d1)
 
 Tässä vielä testaus Strings-komennolla. Voidaan havaita, että salasanaa ei löydy sellaisenaan listasta.
+
+![kuva (11)](https://github.com/user-attachments/assets/722da70b-6a17-4efc-a76d-055f9a7b6845)
 
 ## c)
 
