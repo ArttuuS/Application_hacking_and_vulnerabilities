@@ -43,7 +43,25 @@ Tässä vielä testaus Strings-komennolla. Voidaan havaita, että salasanaa ei l
 
 ## c)
 
+Lähdin tekemään tätä tehtävää samalla tavalla kuin a) tehtävää, eli käytin Strings komentoa ohjelmaan. Ensimmäinen ajatukseni oli, että salasana on esimerkiksi encryptattu eri muotoon. Stringsin syötteestä löytyi "salasana" "piilos-An". Testasin kyseistä salasanaa, mutta se ei ollut ratkaisu. 
+
+Tutkiessani stringsin syötettä enemmän huomasin, että tiedosto on pakattu käyttäen UPX:ää. 
+UPX on ilmainen, turvallinen, kannettava, laajennettava ja tehokas suoritettava pakkaaja useille suoritettaville formaateille (UPX 2024).
+
+![kuva (12)](https://github.com/user-attachments/assets/ae9f757c-ef63-4a65-b07f-b444d18f71b7)
+
+Asensin virtuaalikoneeseeni UPX:än ja googletin sen eri komentoja. Löysin komennon "upx -d", jolla tiedostoja voidaan purkaa. Suorittamalla komennon "upx -d packd" yksi tiedosto tuli puretuksi.
+
+![kuva (13)](https://github.com/user-attachments/assets/e3350f18-20cc-43b3-8025-ac324988e4ca)
+
+Tämän jälkeen käytin Strings-komentoa uudelleen ja salasana ja fläg tuli näkyviin oikeassa muodossa.
+
+![kuva (14)](https://github.com/user-attachments/assets/2ed40b60-b965-4692-bece-9de1bf9777f1)
+
+![kuva (15)](https://github.com/user-attachments/assets/fb129e84-364d-4fee-858f-98a724387b5b)
+
 ## d)
+
 
 ## Lähteet
 
@@ -54,3 +72,7 @@ Clang 2024. Getting Started: Building and Running Clang. Luettavissa: https://cl
 Digital.ai 2024. How to Obfuscate C Code. Luettavissa: https://digital.ai/catalyst-blog/how-to-obfuscate-c-code/. Luettu 7.11.2024.
 
 Stack Overflow 2011. Simply encrypt a string in C. Luettavissa: https://stackoverflow.com/questions/7622617/simply-encrypt-a-string-in-c. Luettu 10.11.2024.
+
+https://upx.github.io/
+
+https://linux.die.net/man/1/upx
