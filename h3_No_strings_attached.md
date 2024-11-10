@@ -72,4 +72,4 @@ Stack Overflow 2011. Simply encrypt a string in C. Luettavissa: https://stackove
 
 UPX 2024. The Ultimate Packer for eXecutables. Luettavissa: https://upx.github.io/. Luettu: 10.11.2024.
 
-Linux.die.net 2010. upx(1) - Linux man page. Luettavissa: https://linux.die.net/man/1/upx. Luettu: 10.11.2024.
+Linux.die.net 2010. Upx(1) - Linux man page. Luettavissa: https://linux.die.net/man/1/upx. Luettu: 10.11.2024.
