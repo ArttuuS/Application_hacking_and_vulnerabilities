@@ -60,9 +60,6 @@ Tämän jälkeen käytin Strings-komentoa uudelleen ja salasana ja flägi tuli n
 
 ![kuva (15)](https://github.com/user-attachments/assets/fb129e84-364d-4fee-858f-98a724387b5b)
 
-## d)
-
-
 ## Lähteet
 
 Mckay, D. 9.7.2019. How to Use the strings Command on Linux. Luettavissa: https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/. Luettu 7.11.2024.
