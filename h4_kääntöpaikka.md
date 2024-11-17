@@ -27,9 +27,29 @@ Java 17 ja Ghidra 11.1.2 asennettu:
 
 # b)
 
+Avasin packd-ohjelman Ghidrassa. Defined strings muistuttu siitä, että osa tiedostoista on pakattu, joten purin tiedoston ennen varsinaista tutkiskelua.
 
+![Näyttökuva 2024-11-17 122606](https://github.com/user-attachments/assets/b5f4d676-3a79-456d-9716-f4ed3fe1a2bf)
+
+![Näyttökuva 2024-11-17 122720](https://github.com/user-attachments/assets/9481780c-a25f-4c1d-9793-6941aa478d90)
+
+Tein kolme muutosta muuttujien nimiin, jotka tekevät binääristä helppolukuisemman:
+
+  * undefined 8 --> int
+  * iVar1 --> password_match
+  * local_28 --> user_input
+
+Oikea salasana löytyy helposti, kun tiedosto on purettu.
+
+![Näyttökuva 2024-11-17 124544](https://github.com/user-attachments/assets/09af1a94-8604-40c3-a10a-6257d8f3cf06)
+
+![Näyttökuva 2024-11-17 124631](https://github.com/user-attachments/assets/31527634-6ae7-4559-8bf1-b4ff889d82ba)
+
+![Näyttökuva 2024-11-17 124735](https://github.com/user-attachments/assets/6b87ea0e-3d2c-4587-8315-846d8d6ad4ae)
 
 # c)
+
+
 
 # d)
 
