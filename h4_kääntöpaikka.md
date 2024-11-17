@@ -98,7 +98,7 @@ Tätä tehtävää lähdin tekemään samalla tapaa kuin edellistä. Defined str
 
 Itse en ole koskaan C:tä koodannut, niin ohjelman muuttujien nimeäminen ja logiikan ymmärtäminen oli vaikeaa.
 
-Vastauksen selvittäminen myös todella vaikealta ja päädyin kokeilemaan Teron näyttämiä kikkoja, kuten tyhjän testaamista. ""-toimi tässä tehtävässä, mutta vastaus on toki vajaa, sillä itse salasana ei tule selville. 
+Vastauksen selvittäminen binääriä tarkkailemalla tuntui myös todella vaikealta ja päädyin kokeilemaan Teron näyttämiä kikkoja, kuten tyhjän testaamista. ""-toimi tässä tehtävässä, mutta vastaus on toki vajaa, sillä itse salasana ei tule selville. 
 
 ![Näyttökuva 2024-11-17 215645](https://github.com/user-attachments/assets/bc4c7e28-d3ba-4963-89c3-894b114e8807)
 
