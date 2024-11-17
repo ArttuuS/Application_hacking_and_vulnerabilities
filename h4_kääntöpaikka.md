@@ -65,13 +65,34 @@ Muutos tehdään "Patch Instruction"- toiminnolla. Tämän jälkeen ohjelma expo
 
 ![Näyttökuva 2024-11-17 204300](https://github.com/user-attachments/assets/574462b3-2aa5-446a-8928-4b8051f44e14)
 
-
+![Näyttökuva 2024-11-17 203957](https://github.com/user-attachments/assets/f586a87a-bc36-4f59-8268-416c4476cf6f)
 
 # d)
 
-# e)
+Latasin tehtävät Githubista ja purin kansion. Make-komennolla koin tarvittavat kolme ohjelmaa.
+
+![Näyttökuva 2024-11-17 205310](https://github.com/user-attachments/assets/88bd9b1a-ff9c-4e3b-9d72-0dd41675ca48)
+
 
 # e)
+
+Aloitin tehtävän avaamalla tehtävän Ghidrassa. Löysin oikean salasanan nopeasti Defined Stringsin kautta. Olin kuitenkin aluksi erittäin hämilläni, että miten salasana syötetään ohjelmaan, joten aloin taas muokkaamaan JNZ muotoa JZ:aksi. Tällä kertaa tässä ratkaisussa tuli ongelmia ja päädyinkin aloittamaan puhtaalta pöydältä. Hieman binääriä enemmän tutkiskellessa tajusin, että salasana tulee laittaa heti suorituskomennon perään. Salasana oli siis password1.
+
+![Näyttökuva 2024-11-17 205759](https://github.com/user-attachments/assets/e3e71cde-2cfc-469c-b567-078c5e0eca23)
+
+![Näyttökuva 2024-11-17 212201](https://github.com/user-attachments/assets/e9091e8d-7428-4810-ad57-70288f7d0cfc)
+
+# e)
+
+Tätä tehtävää lähdin tekemään samalla tapaa kuin edellistä. Defined stringsin ja decompile viewin kautta salasana löytyi nopeasti. Tällä kertaa ongelmia tuotti salasanan syöttäminen. Syötetty salasana sekottui linux komentona. Löysin Redditistä hyvän keskustelun aiheesta (screenshot ja lähde) ja ratkaisu oli laittaa salasana '' väliin.
+
+![Näyttökuva 2024-11-17 213143](https://github.com/user-attachments/assets/2ae01972-707d-49c3-9a0a-0645736ac54d)
+
+![Näyttökuva 2024-11-17 214230](https://github.com/user-attachments/assets/ec9f3cdc-9033-45a0-9d40-a890433e2187)
+
+(Geirha, Reddit 2020)
+
+![Näyttökuva 2024-11-17 214212](https://github.com/user-attachments/assets/408c5dd2-13eb-4039-afa0-7085012175e5)
 
 # f)
 
