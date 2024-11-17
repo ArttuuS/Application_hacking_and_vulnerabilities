@@ -1,5 +1,7 @@
 ## h4 Kääntöpaikka
 
+Ympäristö tehtävien ratkaisussa: Acer Aspire A515-52, Windows 10, Oracle VirtualBox jolle asennettu Debian 12 Bookworm, Java 17, Ghidra 11.1.2.
+
 # x)
 
 * Videossa ladataan sovellus, jonka flägi yritetään selvittää.
@@ -15,7 +17,6 @@
 * Funktioita ja muita ohjelman osia voi uudelleen nimetä, jolloin helppolukuisuus paranee.
 
 * Flägi selvitetään kopioimalla ehtolauseesta hex-luku, joka muutetaan desimaali luvuksi pythonin avulla.
-
 
 # a)
 
@@ -73,7 +74,6 @@ Latasin tehtävät Githubista ja purin kansion. Make-komennolla koin tarvittavat
 
 ![Näyttökuva 2024-11-17 205310](https://github.com/user-attachments/assets/88bd9b1a-ff9c-4e3b-9d72-0dd41675ca48)
 
-
 # e)
 
 Aloitin tehtävän avaamalla tehtävän Ghidrassa. Löysin oikean salasanan nopeasti Defined Stringsin kautta. Olin kuitenkin aluksi erittäin hämilläni, että miten salasana syötetään ohjelmaan, joten aloin taas muokkaamaan JNZ muotoa JZ:aksi. Tällä kertaa tässä ratkaisussa tuli ongelmia ja päädyinkin aloittamaan puhtaalta pöydältä. Hieman binääriä enemmän tutkiskellessa tajusin, että salasana tulee laittaa heti suorituskomennon perään. Salasana oli siis password1.
@@ -96,10 +96,30 @@ Tätä tehtävää lähdin tekemään samalla tapaa kuin edellistä. Defined str
 
 # f)
 
+Itse en ole koskaan C:tä koodannut, niin ohjelman muuttujien nimeäminen ja logiikan ymmärtäminen oli vaikeaa.
+
+Vastauksen selvittäminen myös todella vaikealta ja päädyin kokeilemaan Teron näyttämiä kikkoja, kuten tyhjän testaamista. ""-toimi tässä tehtävässä, mutta vastaus on toki vajaa, sillä itse salasana ei tule selville. 
+
+![Näyttökuva 2024-11-17 215645](https://github.com/user-attachments/assets/bc4c7e28-d3ba-4963-89c3-894b114e8807)
+
+Muuttujien nimeämiseen kysyin apua chatgpt:ltä, ja tein nimeämisen sen ohjeiden mukaisesti.
+
+Alkuperäinen:
+
+![Näyttökuva 2024-11-17 220156](https://github.com/user-attachments/assets/59cade8b-2bae-498b-a8b0-5f61a2c79301)
+
+Muokattu:
+
+![Näyttökuva 2024-11-17 221128](https://github.com/user-attachments/assets/f22d9dbb-bda9-4d80-8497-4fa477547957)
+
+Kävin uteliaisuudesta katsomassa lähdekoodia ja sieltä löytyikin oikea vastaus.
+
+![Näyttökuva 2024-11-17 221704](https://github.com/user-attachments/assets/9d9f4525-b962-4bb4-96fd-88dd0832e050)
+
 # Lähteet
 
-https://www.reddit.com/r/bash/comments/cl54to/not_sure_why_mac_is_saying_bash_event_not_found/?rdt=58517
+Reddit 2020. Luettavissa: https://www.reddit.com/r/bash/comments/cl54to/not_sure_why_mac_is_saying_bash_event_not_found/?rdt=58517. Luettu: 17.11.2024.
 
-https://jorianwoltjer.com/blog/p/hacking/introduction-to-reverse-engineering-with-ghidra
+Jorian Woltjer 2022. Introduction to Reverse Engineering (with Ghidra). Luettavissa: https://jorianwoltjer.com/blog/p/hacking/introduction-to-reverse-engineering-with-ghidra. Luettu 17.11.2024.
 
-https://medium.com/@jeanmichel.amblat/first-steps-with-ghidra-crackme01-319827a2e80b
+Jean-Michel Amblat 2019. First steps with Ghidra: crackme01. Luettavissa: https://medium.com/@jeanmichel.amblat/first-steps-with-ghidra-crackme01-319827a2e80b. Luettu 17.11.2024.
