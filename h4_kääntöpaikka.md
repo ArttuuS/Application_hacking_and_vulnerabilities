@@ -41,8 +41,10 @@ Tein kolme muutosta muuttujien nimiin, jotka tekevät binääristä helppolukuis
 
 Oikea salasana löytyy helposti, kun tiedosto on purettu.
 
+Alkuperäinen:
 ![Näyttökuva 2024-11-17 124544](https://github.com/user-attachments/assets/09af1a94-8604-40c3-a10a-6257d8f3cf06)
 
+Muokattu:
 ![Näyttökuva 2024-11-17 124631](https://github.com/user-attachments/assets/31527634-6ae7-4559-8bf1-b4ff889d82ba)
 
 ![Näyttökuva 2024-11-17 124735](https://github.com/user-attachments/assets/6b87ea0e-3d2c-4587-8315-846d8d6ad4ae)
