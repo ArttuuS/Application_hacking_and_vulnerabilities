@@ -53,6 +53,18 @@ Muokattu:
 
 # c)
 
+Avasin aluksi ohjelman Ghidrassa. Viime tunti antoi hyvät lähtökohdat tämän tehtävän toteuttamiseen. Löysin samoin kaksi hyvää artikkelia tämän kaltaisen tehtävän tekemisestä (löytyy liitteistä). 
+
+Decompilesta ehtolausetta painaessa voidaan tutkia binääriä tarkemmin. Binääristä pystyy paikantamaan "ehdollisen hypyn" (conditional jump), joka määrittelee milloin "hyppy tehdään". Tällä hetkellä asetus on JNZ, eli "jump if not zero". Tämä tulee tehtävän ratkaisemiseksi muuttaa --> JZ, eli "jump if zero". Tällöin ohjelman logiikka kääntyy päinvastaiseksi.
+
+Muutos tehdään "Patch Instruction"- toiminnolla. Tämän jälkeen ohjelma exportataan. Ohjelmaa ei pystynyt ainakaan minun tapauksessa suoraan käynnistämään vaan komento "chmod +x" tuli syöttää. Tämä tekee ohjelmasta suoritettavan.
+
+![Näyttökuva 2024-11-17 194850](https://github.com/user-attachments/assets/9f3713a6-9bc5-4dfd-8a26-89cb7b4ce74a)
+
+![Näyttökuva 2024-11-17 204233](https://github.com/user-attachments/assets/3e83d980-92d9-42fc-808e-f3711a460e9a)
+
+![Näyttökuva 2024-11-17 204300](https://github.com/user-attachments/assets/574462b3-2aa5-446a-8928-4b8051f44e14)
+
 
 
 # d)
