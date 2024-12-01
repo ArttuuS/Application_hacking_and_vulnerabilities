@@ -54,4 +54,8 @@ Molempien työkalujen toimintaperiaate on hyvin samankaltainen. Työkaluihin vai
 
 ![Näyttökuva 2024-12-02 001151](https://github.com/user-attachments/assets/d41249c0-de06-4883-b65b-9d2e4ec2e651)
 
+## Lähteet
 
+https://github.com/skylot/jadx
+
+https://github.com/Konloch/bytecode-viewer/
