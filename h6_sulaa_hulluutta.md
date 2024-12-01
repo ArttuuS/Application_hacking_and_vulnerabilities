@@ -26,6 +26,22 @@ Seuraavaksi suoritin komennon "binwalk -e h1.jpg" joka purkaa tunnetut tiedostot
 
 ![Näyttökuva 2024-12-01 221842](https://github.com/user-attachments/assets/7f42091f-6067-41d3-9fb4-8858e7d2d570)
 
+Tutkin eri xml-tiedostoja, joista silmiin pomppasi erityisesti tiedosto "document.xml". Tämä tiedosto sisälsi erinäisiä "sitaatteja" tulevaisuudesta:
 
+![Näyttökuva 2024-12-01 222403](https://github.com/user-attachments/assets/c0c541c9-77b8-4e2e-852d-56e44455eec7)
+
+Purin myös  kansion "494F5.zip" joka sisälsi samankaltaisen rakenteen kuin itse päähakemisto. Sieltä löytyi myös sama document.xml tiedosto joka sisälsi samoja sitaatteja:
+
+![Näyttökuva 2024-12-01 222835](https://github.com/user-attachments/assets/dd52b44d-4334-4d60-a673-7ecd9aa45f9d)
+
+![Näyttökuva 2024-12-01 222816](https://github.com/user-attachments/assets/e41ae3cd-3939-4ea9-8b22-8a62f943cd3f)
+
+"Raw Data - analyysia" varten on komento binwalk --dd='.*' , jonka avulla raw datan voi dumpata manuaalisesti. Tämä kannatti, sillä se paljasti tiedostosta lisää kuvia:
+
+![Näyttökuva 2024-12-01 225408](https://github.com/user-attachments/assets/1b9aa24f-b1a6-405c-a20b-6f07966aa1f0)
+
+![Näyttökuva 2024-12-01 225431](https://github.com/user-attachments/assets/b368252e-6907-453c-b89c-a4f50fc2458c)
 
 ## c)
+
+
