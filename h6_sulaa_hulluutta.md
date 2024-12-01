@@ -44,4 +44,14 @@ Purin myös  kansion "494F5.zip" joka sisälsi samankaltaisen rakenteen kuin its
 
 ## c)
 
+Valitsin listasta sovelluksen [Fermata](https://github.com/AndreyPavlenko/Fermata), joka on ilmainen video- ja tv-soitin. Latasin sovelluksen APK:n ja asensin sekä JADX- että Bytecode-viewer-työkalut. 
+
+Molempien työkalujen toimintaperiaate on hyvin samankaltainen. Työkaluihin vain raahataan haluttu tiedosta jonka jälkeen tiedosto on helposti tutkittavissa. 
+
+![Näyttökuva 2024-12-02 000155](https://github.com/user-attachments/assets/65e5dfa9-fef5-4c70-b341-ba5c96f46f87)
+
+![Näyttökuva 2024-12-02 000658](https://github.com/user-attachments/assets/30d1c455-1caa-42f5-b22a-396adba64483)
+
+![Näyttökuva 2024-12-02 001151](https://github.com/user-attachments/assets/d41249c0-de06-4883-b65b-9d2e4ec2e651)
+
 
