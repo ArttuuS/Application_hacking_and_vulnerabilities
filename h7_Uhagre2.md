@@ -34,8 +34,8 @@ Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten,
 **Karvinen 2024: Python Basics for Hackers:**
 
 **Vapaaehtoinen: Karvinen 2024: Get started Micro Editor:**
-**
-Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python:**
+
+**Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python:**
 
 ## a)
 
