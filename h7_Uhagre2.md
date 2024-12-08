@@ -6,7 +6,7 @@
 
 1.1 Terminology:
 
-- Sender and receiver (Lähettäjä ja vastaanottaja:
+**- Sender and receiver (Lähettäjä ja vastaanottaja:**
 
   Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten, että salakuuntelija ei pääse viestiin käsiksi.
 
