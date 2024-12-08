@@ -48,8 +48,8 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
 #### 1.7 Large Numbers:
    -Tässä osiossa avataan isoja lukuja.
 
-**Karvinen 2024: Python Basics for Hackers:**
-    -Tässä artikkelissa avataan Pythonin perusteita hakkeroinnissa.
+### **Karvinen 2024: Python Basics for Hackers:**
+   -Tässä artikkelissa avataan Pythonin perusteita hakkeroinnissa.
 
 ## a)
 
