@@ -19,7 +19,9 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
 - Authentication, Integrity, and Nonrepudiation:
 
     -Authentication (todentaminen) = prosessi, jossa varmistetaan viestin alkuperä (oikea henkilö tai taho)
+  
     -Integrity (eheys) = viittaa siihen, ettei viestiä ole muokattu siirron aikana.
+  
     -Nonrepudiation (kiistämättömyys) = tarkoittaa sitä, että viestin lähettäjä ei pysty myöhemmin     
      virheellisesti kieltämään lähettäneensä viestiä.
     
