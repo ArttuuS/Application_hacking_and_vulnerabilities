@@ -49,17 +49,17 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
 
 1.4 Simple XOR:
 
-    XOR on looginen operaattori joka vertailee kahta bittiä ja palauttaa arvon 1, jos bitit ovat erilaisia tai 
+   -XOR on looginen operaattori joka vertailee kahta bittiä ja palauttaa arvon 1, jos bitit ovat erilaisia tai 
     0, jos ne ovat samoja. XOR ei tarjoa oikeaa turvallisuutta lainkaan ja se on helppo murtaa, jopa ilman 
     tietokonetta.
 
 1.7 Large Numbers:
+     
+   -Tässä osiossa avataan isoja lukuja.
 
 **Karvinen 2024: Python Basics for Hackers:**
 
-**Vapaaehtoinen: Karvinen 2024: Get started Micro Editor:**
 
-**Vapaaehtoinen: Karvinen 2024: Getting Started with Cryptopals using Python:**
 
 ## a)
 
