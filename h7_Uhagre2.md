@@ -18,6 +18,10 @@ Tässä osiossa avataan salakirjoituksen terminologiaa.
 
 - Authentication, Integrity, and Nonrepudiation:
 
+    Authentication (todentaminen) = prosessi, jossa varmistetaan viestin alkuperä (oikea henkilö tai taho)
+    Integrity (eheys) = 
+    
+
 - Algorithms and Keys:
 
 - Symmetric Algorithms:
