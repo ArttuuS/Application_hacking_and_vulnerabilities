@@ -1,10 +1,10 @@
-## H7 Uhagre2
+# H7 Uhagre2
 
 ## x) 
 
-# € Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations:
+€ Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations:
 
-# 1.1 Terminology:
+1.1 Terminology:
 
 - Sender and receiver (Lähettäjä ja vastaanottaja:
 
