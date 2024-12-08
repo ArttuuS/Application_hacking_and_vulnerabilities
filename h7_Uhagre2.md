@@ -6,12 +6,15 @@
 
 1.1 Terminology:
 
+Tässä osiossa avataan salakirjoituksen terminologiaa.
+
 - Sender and receiver (Lähettäjä ja vastaanottaja):
 
-Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten, että salakuuntelija ei pääse viestiin käsiksi.
+    Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten, että salakuuntelija ei pääse      viestiin käsiksi.
 
-**- Messages and Encryption:**
+- Messages and Encryption (Viestit ja salaus):
     
+    Viestistä sellaisenaan käytetään termejä plaintext (selväteksti) ja cleartext (selkeäteksti. Salaus             (encryption) on taas naamiointikeino, jolla sisältö piilotetaan. Salatusta viestistä käytetään termiä           ciphertext (salateksti) ja prosessi jossa salattu viesti käännetään selkeäksi tekstiksi on decryption           (salauksen purku).
 
 - Authentication, Integrity, and Nonrepudiation:
 
