@@ -8,7 +8,7 @@
 
 **- Sender and receiver (Lähettäjä ja vastaanottaja):**
 
-    Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten, että salakuuntelija ei pääse viestiin käsiksi.
+   Lähettäjän tavoitteena on saada viesti vastaanottajalle turvallisesti, siten, että salakuuntelija ei pääse viestiin käsiksi.
 
 **- Messages and Encryption:**
     
