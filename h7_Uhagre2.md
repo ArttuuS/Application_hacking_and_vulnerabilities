@@ -23,7 +23,7 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
     -Nonrepudiation (kiistämättömyys) = tarkoittaa sitä, että viestin lähettäjä ei pysty myöhemmin     
     virheellisesti kieltämään lähettäneensä viestiä.
     
-- **Algorithms and Keys (algoritmit ja avaimet): **
+- **Algorithms and Keys (algoritmit ja avaimet):**
     Cryptographic algorithm (kryptografinen algoritmi) eli salakirjoitus, on matemaattinen funktio, jota     
     käytetään viestin salaamiseen ja salauksen purkamiseen. Modernissa kryptografialla käytetään avaimia sekä 
     salaukseen että sen purkuun.
@@ -49,8 +49,7 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
    -Tässä osiossa avataan isoja lukuja.
 
 **Karvinen 2024: Python Basics for Hackers:**
-
-
+    -Tässä artikkelissa avataan Pythonin perusteita hakkeroinnissa.
 
 ## a)
 
