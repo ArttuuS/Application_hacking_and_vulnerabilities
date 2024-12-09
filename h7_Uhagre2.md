@@ -53,6 +53,15 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
 
 ## a)
 
+Convert hex to base64
+
+Aloitin tämän tehtävän tekemisen googlaamalla "hex to base64 python" ja löysin erittäin hyödyllisen stackoverflow keskustelun (löytyy liitteistä) aiheesta. Sieltä löysin myös koodiesimerkin jolla muutos tehdään. Koodissa käytetään pythonin b64encode() funktiota.
+
+![Näyttökuva 2024-12-09 020711](https://github.com/user-attachments/assets/3a37b19b-4c73-487b-9c28-a38a642d4717)
+
+![Näyttökuva 2024-12-09 020742](https://github.com/user-attachments/assets/d67201ca-d68e-4078-972c-e39a9ea4522e)
+
+
 ## b)
 
 ## c)
@@ -61,4 +70,4 @@ Tässä osiossa avataan salakirjoituksen terminologiaa. Tässä termit tiivistet
 
 ## Lähteet
 
-
+https://stackoverflow.com/questions/33704327/hex-to-base64-conversion-in-python
