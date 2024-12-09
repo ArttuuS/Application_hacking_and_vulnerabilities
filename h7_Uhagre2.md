@@ -91,16 +91,18 @@ Tätäkin tehtävää lähestyin googlaamalla aiheesta. Tehtävä tuntui itselle
 
 ## d)
 
-
+Löysin tähän tehtävään googlaamalla useita eri ratkaisuja, mutta päätän olla kopioimatta niitä sillä en ymmärrä niiden toimintalogiikkaa. Aiheeseen pitäisi tutustua paremmin jotta voisin luoda oman koodin tyhjästä tämän luomiseen.
 
 ## Lähteet
 
-https://stackoverflow.com/questions/33704327/hex-to-base64-conversion-in-python
+Stack Overflow 2015. Hex to Base64 conversion in Python. Luettavissa: https://stackoverflow.com/questions/33704327/hex-to-base64-conversion-in-python. Luettu 9.12.2024.
 
-https://www.geeksforgeeks.org/convert-hex-string-to-bytes-in-python/
+GeeksforGeeks 2024. Convert Hex String to Bytes in Python. Luettavissa: https://www.geeksforgeeks.org/convert-hex-string-to-bytes-in-python/. Luettu 9.12.2024.
 
-https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001
+€ Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations. Luettavissa: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001. Luettu 9.12.2024
 
-https://terokarvinen.com/python-for-hackers/
+Tero Karvinen 2024. Python Basics for Hackers. Luettavissa: https://terokarvinen.com/python-for-hackers/. Luettu 9.12.2024.
 
-chatgpt
+Stack Overflow 2017. Luettavissa: https://stackoverflow.com/questions/41819489/single-byte-xor-cipher-python. Luettu 9.12.2024.
+
+[chatgpt](https://chatgpt.com/)
