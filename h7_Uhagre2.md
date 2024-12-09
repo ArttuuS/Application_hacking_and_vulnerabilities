@@ -64,6 +64,17 @@ Aloitin tämän tehtävän tekemisen googlaamalla "hex to base64 python" ja löy
 
 ## b)
 
+Fixed XOR
+
+Tätä tehtävää lähdin lähestymään samalla lähestymistavalla. Googlettelin aiheesta ja löysin hyvän artikkelin GeeksForGeeks-sivustolta (löytyy liitteistä). Siinä kerrottiin Pythonin bytes.fromhex() funktiosta jolla  voi tehdä muutoksen hexadesimaalista binaariksi.
+
+XOR-operaatioon kysyin apua ChatGPT:ltä sillä olin melko hukassa, että miten toiminto tulee koodata.  Tämän jälkeen muuttaminen takaisin hexadesimaaliksi onnistuu helposti hex() funktiolla.
+
+![Näyttökuva 2024-12-09 024640](https://github.com/user-attachments/assets/9f61737a-1bbc-46ef-bb6e-859cd44d525d)
+
+![Näyttökuva 2024-12-09 024713](https://github.com/user-attachments/assets/1460e7f7-ac7e-49a8-82cf-723141dcb20d)
+
+
 ## c)
 
 ## d)
@@ -71,3 +82,11 @@ Aloitin tämän tehtävän tekemisen googlaamalla "hex to base64 python" ja löy
 ## Lähteet
 
 https://stackoverflow.com/questions/33704327/hex-to-base64-conversion-in-python
+
+https://www.geeksforgeeks.org/convert-hex-string-to-bytes-in-python/
+
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec001
+
+https://terokarvinen.com/python-for-hackers/
+
+chatgpt
