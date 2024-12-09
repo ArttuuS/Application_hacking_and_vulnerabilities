@@ -91,7 +91,7 @@ Tätäkin tehtävää lähestyin googlaamalla aiheesta. Tehtävä tuntui itselle
 
 ## d)
 
-Löysin tähän tehtävään googlaamalla useita eri ratkaisuja, mutta päätän olla kopioimatta niitä sillä en ymmärrä niiden toimintalogiikkaa. Aiheeseen pitäisi tutustua paremmin jotta voisin luoda oman koodin tyhjästä tämän luomiseen.
+Löysin tähän tehtävään googlaamalla useita eri ratkaisuja, mutta päätän olla kopioimatta niitä sillä en ymmärrä niiden toimintalogiikkaa. Aiheeseen pitäisi tutustua paremmin jotta voisin luoda oman koodin "from scratch".
 
 ## Lähteet
 
