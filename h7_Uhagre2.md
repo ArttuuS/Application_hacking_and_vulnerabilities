@@ -105,4 +105,4 @@ Tero Karvinen 2024. Python Basics for Hackers. Luettavissa: https://terokarvinen
 
 Stack Overflow 2017. Luettavissa: https://stackoverflow.com/questions/41819489/single-byte-xor-cipher-python. Luettu 9.12.2024.
 
-[chatgpt](https://chatgpt.com/)
+[Chatgpt](https://chatgpt.com/)
