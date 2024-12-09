@@ -77,7 +77,21 @@ XOR-operaatioon kysyin apua ChatGPT:ltä sillä olin melko hukassa, että miten 
 
 ## c)
 
+Tätäkin tehtävää lähestyin googlaamalla aiheesta. Tehtävä tuntui itselleni vaikealta enkä suoraan keksinyt itse ratkaisua millä lähtisin lähestymään ongelmaa. Löysin stackoverflow-sivustolta malliratkaisun mikä näytti toimivan. En tietenkään tästä pisteitä ansaitse, mutta yritin ymmärtää koodin toimintaa:
+
+-Koodissa käytetään unhexlify-funktiota heksadesimaalisen merkkijonon muuttamiseen tavudataksi.
+
+-Koodissa luodaan generaattori jolla yritetään kaikkia mahdollisia salauksen purkamisen avaimia.
+
+-Lopuksi tulostetaan se merkkijono jossa on eniten välilyöntejä.
+
+![Näyttökuva 2024-12-09 032239](https://github.com/user-attachments/assets/77f9afff-1350-4dc9-b8f3-d0b5ef7adfbb)
+
+![Näyttökuva 2024-12-09 032250](https://github.com/user-attachments/assets/55f6005b-5c7c-49d7-9668-3bd63f0fe4fa)
+
 ## d)
+
+
 
 ## Lähteet
 
